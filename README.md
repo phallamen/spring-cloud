@@ -14,5 +14,5 @@ https://spring.io/guides/gs/centralized-configuration/ ~
 https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-running-your-application.html
 
 # NOTE
-i placed properties file in this repository https://github.com/phallamen/test. you will see this configure in cental-config project.
+i placed properties file in this repository https://github.com/phallamen/test. you will see this configure in Spring-Cloud-Central-Config project.
 
