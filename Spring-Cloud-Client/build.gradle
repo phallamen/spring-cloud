@@ -12,6 +12,7 @@ buildscript {
 
 plugins {
     id "io.spring.dependency-management" version "1.0.5.RELEASE"
+	id "org.sonarqube" version "2.7.1"
 }
 
 apply plugin: 'java'
@@ -56,4 +57,9 @@ eclipse {
 		 containers.remove('org.eclipse.jdt.launching.JRE_CONTAINER')
 		 containers 'org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8'
 	}
+}
+sonarqube {
+  properties {
+    sonar.projectKey: phallamen_spring-cloud
+  }
 }

@@ -1,0 +1,8 @@
+addons:
+  sonarcloud:
+    organization: "phallamen"
+    token:
+      secure: "**************************" # encrypted value of your token travis encrypt d34372de770e134a5195e9e92494a3ca2347dfb1
+
+script:
+  - ./gradlew sonarqube
